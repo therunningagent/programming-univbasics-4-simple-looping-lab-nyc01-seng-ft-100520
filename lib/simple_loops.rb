@@ -21,7 +21,7 @@ array = ["All great achievements", "require time", "- Maya Angelou"]
 
 def output_array(array)
   counter = 0 
-  while array[counter] do 
+  while array[counter] < array.length do 
     puts array[counter]
     counter += 1 
   end 
@@ -29,11 +29,11 @@ end
 
 def return_string_array(array)
   counter = 0 
-  while array[counter] do 
-    array[counter]
+  while array[counter] < array.length do 
+    new_array.push(array[count].to_s)
     counter += 1
-    return array.to_s
   end 
+  new_array
 end
 
 return_string_array(array)
