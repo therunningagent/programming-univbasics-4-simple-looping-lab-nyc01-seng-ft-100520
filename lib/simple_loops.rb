@@ -33,7 +33,7 @@ def return_string_array(array)
     array[counter]
     counter += 1
   end 
-  puts array
+  puts array.to_s
 end
 
 return_string_array(array)
