@@ -32,7 +32,7 @@ def return_string_array(array)
   while array[counter] do 
     array[counter]
     counter += 1
-    return array[counter].to_s
+    return array.to_s
   end 
 end
 
